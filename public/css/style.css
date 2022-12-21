@@ -1,0 +1,12 @@
+body{
+    background-color: brown;
+    color: white;
+}
+
+li.primo{
+    color:yellow;
+}
+
+li.ultimo{
+    color: aqua;
+}
