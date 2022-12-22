@@ -21,7 +21,7 @@ Route::get('/',function(){
     $colori = ['giallo','rosso','blu','verde','viola'];
 
     return view('home', compact('saluto', 'utente', 'stampa_paragrafo', 'colori'));
-});
+})->name('home');
 
 Route::get('/chi-siamo',function(){
     $saluto = "Buongiorno pagina chi siamo";
@@ -33,4 +33,9 @@ Route::get('/chi-siamo',function(){
     ];
 
     return view('about', $data);
-});
+})->name('about');
+
+Route::get('/contatti',function(){
+
+    return view('contacts');
+})->name('contacts');

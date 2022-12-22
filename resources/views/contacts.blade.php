@@ -6,7 +6,7 @@
 
 @section('content')
 
-    <h1>{{ $saluto }} {{  $utente }}</h1>
+    <h1>contatti</h1>
 
 @endsection
 
